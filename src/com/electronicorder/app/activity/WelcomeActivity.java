@@ -1,6 +1,7 @@
 package com.electronicorder.app.activity;
 
-import com.cettco.zxingsimplifydemo.R;
+import com.electronicorder.app.Data;
+import com.electronicorder.app.R;
 import com.electronicorder.app.activity.scan.CaptureActivity;
 
 import android.app.Activity;
@@ -21,6 +22,8 @@ public class WelcomeActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_welcome);
 		textViewScan = (TextView)findViewById(R.id.textViewScan);
+		final Data data = (Data)getApplication();
+		textViewScan.setText(data.getBaseUrl());
 		btnScan = (Button)findViewById(R.id.btnScan);
 		btnScan.setOnClickListener(new View.OnClickListener() {
             

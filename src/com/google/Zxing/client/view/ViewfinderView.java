@@ -18,7 +18,7 @@ package com.google.Zxing.client.view;
 
 import com.google.Zxing.client.camera.CameraManager;
 import com.google.zxing.ResultPoint;
-import com.cettco.zxingsimplifydemo.R;
+import com.electronicorder.app.R;
 
 import android.content.Context;
 import android.content.res.Resources;

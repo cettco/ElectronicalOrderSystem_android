@@ -21,7 +21,7 @@ import com.google.Zxing.client.camera.CameraManager;
 import com.google.Zxing.client.view.*;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
-import com.cettco.zxingsimplifydemo.R;
+import com.electronicorder.app.R;
 
 import android.app.Activity;
 import android.content.Intent;

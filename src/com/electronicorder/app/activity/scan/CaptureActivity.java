@@ -3,7 +3,7 @@ package com.electronicorder.app.activity.scan;
 import java.io.IOException;
 import java.util.Vector;
 
-import com.cettco.zxingsimplifydemo.R;
+import com.electronicorder.app.R;
 import com.google.Zxing.client.camera.CameraManager;
 import com.google.Zxing.client.decoding.CaptureActivityHandler;
 import com.google.Zxing.client.decoding.InactivityTimer;
